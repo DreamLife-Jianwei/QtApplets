@@ -21,5 +21,4 @@ greaterThan(QT_MAJOR_VERSION, 4) {                  #这个就是不同版本Qt�
 target.path = $$[QT_INSTALL_PLUGINS]/designer
 INSTALLS    += target
 
-#这个应该就是真正的控件包含了，这里包含了一个customcontrol的控件，  不知道 这么理解是否正确
-include(customcontrol.pri)
+include(customcontrol.pri)			#这个应该就是真正的控件包含了，这里包含了一个customcontrol的控件，  不知道 这么理解是否正确
