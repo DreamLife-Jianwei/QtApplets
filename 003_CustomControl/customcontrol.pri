@@ -1,2 +1,2 @@
-HEADERS += customcontrol.h
-SOURCES += customcontrol.cpp
+HEADERS += customcontrol.h
+SOURCES += customcontrol.cpp

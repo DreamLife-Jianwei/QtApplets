@@ -7,6 +7,8 @@ CustomControlPlugin::CustomControlPlugin(QObject *parent)
     : QObject(parent)
 {
     m_initialized = false;
+    qRegisterMetaType<TestRect>("TestRect");
+
 }
 /**
  * @brief CustomControlPlugin::initialize
@@ -18,7 +20,7 @@ void CustomControlPlugin::initialize(QDesignerFormEditorInterface * /* core */)
         return;
 
     // Add extension registrations, etc. here
-
+    qRegisterMetaType<TestRect>("TestRect");
     m_initialized = true;
 }
 /**
@@ -38,6 +40,7 @@ bool CustomControlPlugin::isInitialized() const
  */
 QWidget *CustomControlPlugin::createWidget(QWidget *parent)
 {
+    qRegisterMetaType<TestRect>("TestRect");
     return new CustomControl(parent);
 }
 /**
@@ -65,7 +68,7 @@ QString CustomControlPlugin::group() const
  */
 QIcon CustomControlPlugin::icon() const
 {
-    return QIcon(QLatin1String(":/logo.jpg"));
+    return QIcon(QLatin1String(":/Images/logo2.png"));
 }
 /**
  * @brief CustomControlPlugin::toolTip
