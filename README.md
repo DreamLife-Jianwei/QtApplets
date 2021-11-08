@@ -35,3 +35,9 @@
 > 使用定时器定时读取配置文件信息，以达到配置配置文件修改及时生效
 >
 > 博客地址：[https://dreamlife.blog.csdn.net/article/details/121215034](https://dreamlife.blog.csdn.net/article/details/121215034)
+
+## 005_International(多语言翻译)
+
+> 多语言翻译
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121216479](https://dreamlife.blog.csdn.net/article/details/121216479)
