@@ -30,3 +30,8 @@
 >
 > ​					[https://blog.csdn.net/z609932088/article/details/121170799?spm=1001.2014.3001.5502](https://blog.csdn.net/z609932088/article/details/121170799?spm=1001.2014.3001.5502)
 
+## 004_QSettingsTimer(定时读取配置文件)
+
+> 使用定时器定时读取配置文件信息，以达到配置配置文件修改及时生效
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121215034](https://dreamlife.blog.csdn.net/article/details/121215034)
