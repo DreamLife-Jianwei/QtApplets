@@ -12,11 +12,15 @@
 >
 > 博客地址：[https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501)		
 
+![gif5](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027103256.gif)
+
 ## 002_GetUserName(获取当前程序用户名)
 
 > 获取当前程序用户名
 >
 > 博客地址：[https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501)
+
+![gif6](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027110405.gif)
 
 ## 003_CustomControl(自定义控件)
 
@@ -36,8 +40,12 @@
 >
 > 博客地址：[https://dreamlife.blog.csdn.net/article/details/121215034](https://dreamlife.blog.csdn.net/article/details/121215034)
 
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108200515.gif)
+
 ## 005_International(多语言翻译)
 
 > 多语言翻译
 >
 > 博客地址：[https://dreamlife.blog.csdn.net/article/details/121216479](https://dreamlife.blog.csdn.net/article/details/121216479)
+
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108211432.gif)
