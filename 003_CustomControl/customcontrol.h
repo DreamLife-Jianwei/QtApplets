@@ -5,14 +5,10 @@
 #include <QLabel>
 #include <QRect>
 #include <QMetaType>
+#include "testrect.h"
 
-
-struct TestRect
-{
-    int tx;
-    int ty;
-};
 Q_DECLARE_METATYPE(TestRect);
+
 class CustomControl : public QWidget
 {
     Q_OBJECT

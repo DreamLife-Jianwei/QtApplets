@@ -4,9 +4,11 @@ TARGET      = $$qtLibraryTarget(customcontrol)      #TARGET变量指定生成的
 
 TEMPLATE    = lib                                   #模块设置，lib是指生成lib库，app指生成应用程序(默认)
 
-HEADERS     = customcontrolplugin.h                 #包含头文件
+HEADERS     = customcontrolplugin.h \                 #包含头文件
+    testrect.h
 
-SOURCES     = customcontrolplugin.cpp               #包含源文件
+SOURCES     = customcontrolplugin.cpp \               #包含源文件
+    testrect.cpp
 
 RESOURCES   = images.qrc                            #资源文件
 
@@ -22,3 +24,5 @@ target.path = $$[QT_INSTALL_PLUGINS]/designer
 INSTALLS    += target
 
 include(customcontrol.pri)			#这个应该就是真正的控件包含了，这里包含了一个customcontrol的控件，  不知道 这么理解是否正确
+
+QT += widgets
