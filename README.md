@@ -37,6 +37,14 @@
 > ​					[https://blog.csdn.net/z609932088/article/details/121170714?spm=1001.2014.3001.5502](https://blog.csdn.net/z609932088/article/details/121170714?spm=1001.2014.3001.5502)
 >
 > ​					[https://blog.csdn.net/z609932088/article/details/121170799?spm=1001.2014.3001.5502](https://blog.csdn.net/z609932088/article/details/121170799?spm=1001.2014.3001.5502)
+>
+> ​					[https://dreamlife.blog.csdn.net/article/details/121260582](https://dreamlife.blog.csdn.net/article/details/121260582)
+>
+> ​					[https://dreamlife.blog.csdn.net/article/details/121260597](https://dreamlife.blog.csdn.net/article/details/121260597)
+>
+> ​					[https://dreamlife.blog.csdn.net/article/details/121260618](https://dreamlife.blog.csdn.net/article/details/121260618)
+>
+> ​					[https://dreamlife.blog.csdn.net/article/details/121260637](https://dreamlife.blog.csdn.net/article/details/121260637)
 
 ## 004_QSettingsTimer(定时读取配置文件)
 
