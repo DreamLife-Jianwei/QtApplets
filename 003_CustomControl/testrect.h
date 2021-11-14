@@ -23,6 +23,7 @@ public:
 
     void setTestX(int temp);
 
+    bool operator != (TestRect &t);
 
 
 

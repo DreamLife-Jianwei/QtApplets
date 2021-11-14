@@ -35,5 +35,13 @@ int TestRect::getTestX()
 
 void TestRect::setTestX(int temp)
 {
+    mTestX = temp;
+}
+
+bool TestRect::operator !=(TestRect &t)
+{
+    if(this->mTestX != t.mTestX)
+        return true;
+    return  false;
 
 }

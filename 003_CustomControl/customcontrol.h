@@ -18,9 +18,11 @@ class CustomControl : public QWidget
 
     Q_PROPERTY(QRect testGeometry READ testGeometry WRITE setTestGeometry)
 
-    Q_PROPERTY(TestRect testRect READ getTestRect WRITE setTestRect)
+    Q_PROPERTY(TestRect testRect READ getTestRect WRITE setTestRect MEMBER tt)
 
     Q_PROPERTY(BrowserType browserType READ browserType WRITE setBrowserType)
+
+    Q_PROPERTY(TestRect tt MEMBER tt WRITE setTestRect)
 
 public:
     CustomControl(QWidget *parent = 0);
@@ -51,6 +53,8 @@ private:
     TestRect mT;
 
     BrowserType mBrowserType;
+
+    TestRect tt;
 
 
 };

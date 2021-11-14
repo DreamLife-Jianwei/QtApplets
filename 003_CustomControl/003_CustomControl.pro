@@ -4,11 +4,9 @@ TARGET      = $$qtLibraryTarget(customcontrol)      #TARGET变量指定生成的
 
 TEMPLATE    = lib                                   #模块设置，lib是指生成lib库，app指生成应用程序(默认)
 
-HEADERS     = customcontrolplugin.h \                 #包含头文件
-    testrect.h
+HEADERS     = customcontrolplugin.h                  #包含头文件
 
-SOURCES     = customcontrolplugin.cpp \               #包含源文件
-    testrect.cpp
+SOURCES     = customcontrolplugin.cpp                #包含源文件
 
 RESOURCES   = images.qrc                            #资源文件
 
