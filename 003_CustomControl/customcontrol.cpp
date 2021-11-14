@@ -16,7 +16,7 @@ CustomControl::BrowserType CustomControl::browserType() const
 
 void CustomControl::setBrowserType(const CustomControl::BrowserType type)
 {
-
+    Q_UNUSED(type)
 }
 
 int CustomControl::getTestID()
@@ -51,7 +51,7 @@ TestRect CustomControl::getTestRect()
 
 void CustomControl::setTestRect(const TestRect t)
 {
-//    mT = t;
+    mT = t;
 }
 
 
