@@ -10,21 +10,39 @@
 
 ---
 
-## 001_GetProcessOwner(监听指定进程并获取其用户名)
 
-> 监听指定的进程，并获取该进程所属用户名。
+
+## 007_QSignalMapperDemo
+
+> QSignalMapper 信号映射 示例，该示例来之网络
 >
-> 博客地址：[https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501)		
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/122062277](https://dreamlife.blog.csdn.net/article/details/122062277)
 
-![gif5](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027103256.gif)
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/202112211455865.gif)
 
-## 002_GetUserName(获取当前程序用户名)
+## 006_Q_ASSERT_Demo(Q_ASSERT关键字测试)
 
-> 获取当前程序用户名
+> Q_ASSERT关键字示例
 >
-> 博客地址：[https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501)
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121316795](https://dreamlife.blog.csdn.net/article/details/121316795)
 
-![gif6](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027110405.gif)
+![示例](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211114133018.gif)
+
+## 005_International(多语言翻译)
+
+> 多语言翻译
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121216479](https://dreamlife.blog.csdn.net/article/details/121216479)
+
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108211432.gif)
+
+## 004_QSettingsTimer(定时读取配置文件)
+
+> 使用定时器定时读取配置文件信息，以达到配置配置文件修改及时生效
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121215034](https://dreamlife.blog.csdn.net/article/details/121215034)
+
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108200515.gif)
 
 ## 003_CustomControl(自定义控件)
 
@@ -46,28 +64,27 @@
 >
 > ​					[https://dreamlife.blog.csdn.net/article/details/121260637](https://dreamlife.blog.csdn.net/article/details/121260637)
 
-## 004_QSettingsTimer(定时读取配置文件)
+## 002_GetUserName(获取当前程序用户名)
 
-> 使用定时器定时读取配置文件信息，以达到配置配置文件修改及时生效
+> 获取当前程序用户名
 >
-> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121215034](https://dreamlife.blog.csdn.net/article/details/121215034)
+> 博客地址：[https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988990?spm=1001.2014.3001.5501)
 
-![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108200515.gif)
+![gif6](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027110405.gif)
 
-## 005_International(多语言翻译)
+## 001_GetProcessOwner(监听指定进程并获取其用户名)
 
-> 多语言翻译
+> 监听指定的进程，并获取该进程所属用户名。
 >
-> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121216479](https://dreamlife.blog.csdn.net/article/details/121216479)
+> 博客地址：[https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501](https://blog.csdn.net/z609932088/article/details/120988074?spm=1001.2014.3001.5501)		
 
-![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211108211432.gif)
+![gif5](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211027103256.gif)
 
 
 
-## 006_Q_ASSERT_Demo(Q_ASSERT关键字测试)
 
-> Q_ASSERT关键字示例
->
-> 博客地址：[https://dreamlife.blog.csdn.net/article/details/121316795](https://dreamlife.blog.csdn.net/article/details/121316795)
 
-![示例](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20211114133018.gif)
+
+
+
+

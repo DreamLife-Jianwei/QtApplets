@@ -6,4 +6,5 @@ SUBDIRS += \
     003_CustomControl \
     004_QSettingsTimer \
     005_International \
-    006_Q_ASSERT_Demo
+    006_Q_ASSERT_Demo \
+    007_QSignalMapperDemo
