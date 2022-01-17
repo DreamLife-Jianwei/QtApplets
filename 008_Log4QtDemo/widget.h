@@ -3,6 +3,13 @@
 
 #include <QWidget>
 
+
+
+//引入头文件包含
+#include "log4qt/logger.h"
+#include "log4qt/basicconfigurator.h"
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
@@ -17,5 +24,8 @@ public:
 
 private:
     Ui::Widget *ui;
+
+//    Log4Qt::Logger* log = nullptr;
+
 };
 #endif // WIDGET_H
