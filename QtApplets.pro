@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    001_GetProcessOwner \
+#    001_GetProcessOwner \          #这个子项目需要用的vs编译，我日常用的是MinGW，所以先注释掉
     002_GetUserName \
     003_CustomControl \
     004_QSettingsTimer \

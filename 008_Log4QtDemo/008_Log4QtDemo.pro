@@ -18,6 +18,10 @@ HEADERS += \
 FORMS += \
     widget.ui
 
+
+
+include(./log4qt/log4qt.pri)
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
