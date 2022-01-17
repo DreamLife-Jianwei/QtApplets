@@ -7,4 +7,5 @@ SUBDIRS += \
     004_QSettingsTimer \
     005_International \
     006_Q_ASSERT_Demo \
-    007_QSignalMapperDemo
+    007_QSignalMapperDemo \
+    008_Log4QtDemo
