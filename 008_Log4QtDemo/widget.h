@@ -22,6 +22,15 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_pushButton_Qdebug_clicked();
+
+    void on_pushButton_Qwarning_clicked();
+
+    void on_pushButton_QCritical_clicked();
+
+    void on_pushButton_QFatal_clicked();
+
 private:
     Ui::Widget *ui;
 

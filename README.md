@@ -10,6 +10,16 @@
 
 ---
 
+## 008_Log4QtDemo
+
+> 实现简单使用Log4Qt模块实现日志生成，并获取调试信息qDebug，警告信息qWarning 错误信息qCritical和致命错误qFaltal
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/122556465](https://dreamlife.blog.csdn.net/article/details/122556465)
+
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/20220118112428.gif)
+
+
+
 
 
 ## 007_QSignalMapperDemo
