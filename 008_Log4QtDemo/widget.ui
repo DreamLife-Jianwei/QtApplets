@@ -30,7 +30,7 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>190</y>
+     <y>290</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -43,7 +43,7 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>270</y>
+     <y>380</y>
      <width>120</width>
      <height>30</height>
     </rect>
@@ -56,13 +56,26 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>350</y>
+     <y>470</y>
      <width>120</width>
      <height>30</height>
     </rect>
    </property>
    <property name="text">
     <string>QFatal测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_INfor">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Qinfor测试</string>
    </property>
   </widget>
  </widget>

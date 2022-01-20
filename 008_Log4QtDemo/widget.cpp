@@ -55,3 +55,12 @@ void Widget::on_pushButton_QFatal_clicked()
     qFatal("qFatall Testing");
 }
 
+/**
+ * @brief Widget::on_pushButton_INfor_clicked
+ * infor 消息测试
+ */
+void Widget::on_pushButton_INfor_clicked()
+{
+    qInfo() <<"qInfo Testing";
+}
+

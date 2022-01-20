@@ -31,6 +31,8 @@ private slots:
 
     void on_pushButton_QFatal_clicked();
 
+    void on_pushButton_INfor_clicked();
+
 private:
     Ui::Widget *ui;
 
