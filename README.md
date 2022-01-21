@@ -10,6 +10,18 @@
 
 ---
 
+
+
+
+
+## 009_MyLog
+
+> 简单实现了一个小的日志记录，使用Qt原来的消息捕获，只是把消息存储的Sqlite数据库中。
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/122622671](https://dreamlife.blog.csdn.net/article/details/122622671)
+
+![](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/202201211527150.gif)
+
 ## 008_Log4QtDemo
 
 > 实现简单使用Log4Qt模块实现日志生成，并获取调试信息qDebug，警告信息qWarning 错误信息qCritical和致命错误qFaltal
