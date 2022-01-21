@@ -8,4 +8,5 @@ SUBDIRS += \
     005_International \
     006_Q_ASSERT_Demo \
     007_QSignalMapperDemo \
-    008_Log4QtDemo
+    008_Log4QtDemo \
+    009_MyLog
