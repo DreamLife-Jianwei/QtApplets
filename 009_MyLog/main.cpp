@@ -14,13 +14,13 @@
 
 static QSqlDatabase g_DataBase;                 //数据库
 
-
+const bool deleteOld = false;
 
 
 void openDB()
 {
 
-/**********************************创建日志文件夹**********************************/
+    /**********************************创建日志文件夹**********************************/
     QDir* temp = new QDir;
     if(!temp->exists("./log"))
         if(!temp->mkdir("./log"))
@@ -32,24 +32,27 @@ void openDB()
             QMessageBox::warning(nullptr,"警告","创建日志目录失败",QMessageBox::Ok);
 
 
-/**********************************只保存本年度日志**********************************/
-    temp->setPath("./log");
-    temp->setFilter(QDir::Dirs);
-    QFileInfoList list = temp->entryInfoList();
-    int i = 0;
-    do{
-        QFileInfo fileInfo = list.at(i);
-       if((fileInfo.fileName() != QDateTime::currentDateTime().toString("yyyy")) &&
-               (fileInfo.fileName() != ".") &&
-               (fileInfo.fileName() != ".."))
-       {
-           temp->setPath("./log/" + fileInfo.fileName());
-           temp->removeRecursively();
-       }
-       ++i;
-    }while (i<list.size());
+    /**********************************只保存本年度日志**********************************/
+    if(deleteOld)
+    {
+        temp->setPath("./log");
+        temp->setFilter(QDir::Dirs);
+        QFileInfoList list = temp->entryInfoList();
+        int i = 0;
+        do{
+            QFileInfo fileInfo = list.at(i);
+            if((fileInfo.fileName() != ".") &&
+                    (fileInfo.fileName() != "..") &&
+                    (fileInfo.fileName() != QDateTime::currentDateTime().toString("yyyy")))
+            {
+                temp->setPath("./log/" + fileInfo.fileName());
+                temp->removeRecursively();
+            }
+            ++i;
+        }while (i<list.size());
+    }
 
-/**********************************打开/建立数据库操作**********************************/
+    /**********************************打开/建立数据库操作**********************************/
 
     if(QSqlDatabase::contains("qt_sql_default_connection"))
         g_DataBase = QSqlDatabase::database("qt_sql_default_connection");
