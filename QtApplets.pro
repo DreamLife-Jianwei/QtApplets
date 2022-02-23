@@ -9,4 +9,5 @@ SUBDIRS += \
     006_Q_ASSERT_Demo \
     007_QSignalMapperDemo \
     008_Log4QtDemo \
-    009_MyLog
+    009_MyLog \
+    010_HookDemo
