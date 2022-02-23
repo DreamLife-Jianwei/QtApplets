@@ -14,6 +14,24 @@
 
 
 
+## 010_MyHook
+
+> 利用钩子函数，是实现win平台屏蔽键盘组合键
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/123084722](https://dreamlife.blog.csdn.net/article/details/123084722)
+>
+> ```
+> "Ctrl+Shift+Esc"
+> "Ctrl+Esc"
+> "Alt+Tab"
+> "Alt+Esc"
+> "LWIN/RWIN"
+> "Alt+F4"
+> "Ctrl+Alt+del"
+> ```
+
+![image-20220223103608566](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/202202231036954.png)
+
 ## 009_MyLog
 
 > 简单实现了一个小的日志记录，使用Qt原来的消息捕获，只是把消息存储的Sqlite数据库中。
