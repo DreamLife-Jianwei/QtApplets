@@ -10,4 +10,5 @@ SUBDIRS += \
     007_QSignalMapperDemo \
     008_Log4QtDemo \
     009_MyLog \
-    010_HookDemo
+    010_HookDemo \
+    011_QTextToSpeechDemo

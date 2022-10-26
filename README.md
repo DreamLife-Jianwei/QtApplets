@@ -14,6 +14,14 @@
 
 
 
+## 011_QTextToSpeechDemo
+
+> 使用QTextToSpeech库，实现文字转语音
+>
+> 博客地址：[https://dreamlife.blog.csdn.net/article/details/127532552](https://dreamlife.blog.csdn.net/article/details/127532552)
+
+![image-20221026142240647](https://raw.githubusercontent.com/DreamLife-Jianwei/CSDNResources/master/image-20221026142240647.png)
+
 ## 010_HookDemo
 
 > 利用钩子函数，是实现win平台屏蔽键盘组合键
