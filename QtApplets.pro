@@ -11,4 +11,6 @@ SUBDIRS += \
     008_Log4QtDemo \
     009_MyLog \
     010_HookDemo \
-    011_QTextToSpeechDemo
+    011_QTextToSpeechDemo \
+    012_PropertyAnimationDemo \
+    013_QGraphicsDemo
