@@ -13,4 +13,5 @@ SUBDIRS += \
     010_HookDemo \
     011_QTextToSpeechDemo \
     012_PropertyAnimationDemo \
-    013_QGraphicsDemo
+    013_QGraphicsDemo \
+    014_SystemInfo
