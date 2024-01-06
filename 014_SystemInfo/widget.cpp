@@ -62,5 +62,6 @@ void Widget::getMemory()
 void Widget::slot_getSystemInfor()
 {
     getCurrentCpuUsage();
+    getMemory();
 }
 
