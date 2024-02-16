@@ -14,4 +14,5 @@ SUBDIRS += \
     011_QTextToSpeechDemo \
     012_PropertyAnimationDemo \
     013_QGraphicsDemo \
-    014_SystemInfo
+#    014_SystemInfo \               #这个子项目需要用的vs编译，我日常用的是MinGW，所以先注释掉
+    015_ThreadPool
