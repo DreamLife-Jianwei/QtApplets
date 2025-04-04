@@ -15,4 +15,5 @@ SUBDIRS += \
     # 012_PropertyAnimationDemo \
     # 013_QGraphicsDemo \
     # 014_SystemInfo \
-    015_QtEventUsing
+    015_QtEventUsing \
+    015_ThreadPool
