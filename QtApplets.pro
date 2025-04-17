@@ -16,5 +16,6 @@ SUBDIRS += \
     # 013_QGraphicsDemo \
     # 014_SystemInfo \
     # 015_ThreadPool \
-    016_QtEventUsing
+    # 016_QtEventUsing \
+    017_SingleInstance
 
